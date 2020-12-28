@@ -1,0 +1,31 @@
+.icon-logo img{
+    width: 50px;
+}
+
+div.dt-buttons {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+.blog{
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+}
+
+.login-wrap{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.content-login{
+    width: 100%;
+    background-image: url("http://localhost/KP-IPMPK/assets/img/jembatanrumbai.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
