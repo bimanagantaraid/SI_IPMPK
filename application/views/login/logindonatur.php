@@ -8,25 +8,28 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="<?= base_url('assets/css/custome.css') ?>">
+    <title>Login Donatur!</title>
 </head>
 
-<body>
+<body class="content-login">
     <div class="container">
         <div class="row justify-content-center mt-5">
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header bg-transparent mb-0">
-                        <h5 class="text-center">Please <span class="font-weight-bold text-primary">LOGIN</span></h5>
+                        <h5 class="text-center">Selamat Datang <span class="font-weight-bold text-primary">Donatur</span></h5>
+                        <div class="text-center">
+                            <img src="<?= base_url('assets/img/ipmpk.png') ?>" ? style="width: 100px;" class="text-center">
+                        </div>
                     </div>
                     <div class="card-body">
-                        <form action="<?=base_url('login/ceklogindonatur')?>" method="POST">
+                        <form action="<?= base_url('login/ceklogindonatur') ?>" method="POST">
                             <div class="form-group">
                                 <input type="text" name="Username" class="form-control" placeholder="Username">
                             </div>
                             <div class="form-group">
-                                <input type="text" name="Password" class="form-control" placeholder="Password">
+                                <input type="password" name="Password" class="form-control" placeholder="Password">
                             </div>
                             <div class="form-group">
                                 <input type="submit" name="login" value="Login" class="btn btn-primary btn-block">
