@@ -23,7 +23,7 @@
                             <img src="<?= base_url('assets/img/ipmpk.png') ?>" ? style="width: 100px;" class="text-center">
                         </div>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body" style="background:url('<?= base_url('assets/img/estetik.jpg') ?>');">
                         <form action="<?= base_url('login/ceklogindonatur') ?>" method="POST">
                             <div class="form-group">
                                 <input type="text" name="Username" class="form-control" placeholder="Username">
