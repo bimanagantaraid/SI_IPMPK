@@ -27,18 +27,46 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav ml-auto my-lg-0 my-2">
           <li class="nav-item">
-            <a href="<?= base_url('home/profile') ?>" class="nav-link">ABOUT</a>
+            <a href="<?= base_url('home') ?>" class="nav-link">Beranda</a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url('home/artikel') ?>" class="nav-link">NEWS & EVENT</a>
+            <a href="<?= base_url('home/profile') ?>" class="nav-link">Tentang Kami</a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url('home/contact') ?>" class="nav-link">CONTACT US</a>
+            <a href="<?= base_url('home/artikel') ?>" class="nav-link">Berita & Event</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <!-- Header -->
+  <section class="header-history">
+    <div class="container h-100">
+      <div class="row h-20 align-items-center justify-content-center text-center">
+        <div class="col-lg-12 align-self-end">
+          <h1 class="display-4 text-white align-middle text-center">Tentang Kami</h1>
+          <hr class="divider my-2">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Isi History -->
+  <section class="isi-history">
+    <div class="container">
+      <div class="row justify-content-left">
+        <div class="col-md-4">
+          <img src="<?= base_url('assets/img/ipmpk.png') ?>" class="img-fluid">
+        </div>
+        <div class="col-md-8" id="col-isi-history">
+          <h1 class="text-black font-weight-bold">IKATAN PELAJAR MAHASISWA PEMUDA KEMPAS</h1>
+          <hr class="divider my-4">
+          <p class="text-black ">IPMPK MERUPAKAN ORGANISASI YANG BERGERAK DI DESA KELURAHAN KEMPAS JAYA</p>
+          <p class="text-justify">Organisasi Pelajar Mahasiswa Pemuda Kempas berdiri pada tahun 2017. IPMPK dipelopori dan didirikan oleh Taqrir M. Asri Saman juga sebagai ketua umum organisasi. Organisasi ditujukan untuk membentuk karakter, komunikasi dan solidaritas antar pemuda, mahasiswa, pelajar kempas supaya menjadi lebih baik.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="header-contact">
     <div class="container h-100">
@@ -57,39 +85,39 @@
         <div class="col-md-4" id="col-profil">
           <img src="<?= base_url('assets/img/img-005.jpg') ?>" class="img-thumbnail">
           <h4>BADAN PENGURUS INTI</h4>
-          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolor! Error ipsa numquam rem ex a minima officia molestiae in neque ipsam, eos libero, quas labore. Ratione excepturi voluptate at!</P>
-          <button class="btn btn-success">OUR HISTORY</button></a>
+          <P>Pengurus inti yaitu Takrir mas sebagai ketua umum, Ade Ruslan sebagai wakil ketua, Khairul Anwar sebagai seketrasi umum, M. Mariya sebagai bendahara Umum.</P>
+
         </div>
         <div class="col-md-4" id="col-profil">
           <img src="<?= base_url('assets/img/img-005.jpg') ?>" class="img-thumbnail">
           <h4>HUBUNGAN MASYARAKAT</h4>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci molestiae incidunt, eveniet maxime id laborum ea veniam, aspernatur provident mollitia harum? Aliquid natus atque excepturi dolor aperiam, repellat quidem?</p>
-          <button class="btn btn-success">OUR HISTORY</button></a>
+          <p>Seksi yang mengurusi hubungan masyarakat dibina oleh beberapa seksi yaitu Hartoni, Yogi, Rizky Lismana, Akmal Sukri, Ahmad Syahrial Nst</p>
+
         </div>
       </div>
       <div class="row justify-content-around" id="row-profil">
         <div class="col-md-4" id="col-profil">
           <img src="<?= base_url('assets/img/img-005.jpg') ?>" class="img-thumbnail">
           <h4>SEKSI OLAHRAGA</h4>
-          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolor! Error ipsa numquam rem ex a minima officia molestiae in neque ipsam, eos libero, quas labore. Ratione excepturi voluptate at!</P>
-          <button class="btn btn-success">OUR HISTORY</button></a>
+          <P>Bergerak dalam bidang olahraga dibina oleh seksi Erwin, Muhammad Akbar, Andry Saputra, Vahrio Candra, Shandy Rhama Putra</P>
+
         </div>
         <div class="col-md-4" id="col-profil">
           <img src="<?= base_url('assets/img/img-005.jpg') ?>" class="img-thumbnail">
           <h4>SEKSI KESEHATAN</h4>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat adipisci molestiae incidunt, eveniet maxime id laborum ea veniam, aspernatur provident mollitia harum? Aliquid natus atque excepturi dolor aperiam, repellat quidem?</p>
-          <button class="btn btn-success">OUR HISTORY</button></a>
+          <p></p>
         </div>
       </div>
     </div>
   </section>
+
   <!-- Contact -->
   <section class="contact-card">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
           <h4>CATEGORIES</h4>
-          <a href="news-event.html">EVENT</a>
+          <a href="<?= base_url('home/artikel') ?>">EVENT</a>
         </div>
         <div class="col-lg-4">
           <h4>IKATAN PELAJAR MAHASISWA PEMUDA KEMPAS</h4>
@@ -102,7 +130,6 @@
     </div>
   </section>
   <!-- End Contact -->
-
   <!-- Footer -->
   <section class="footer">
     <footer>

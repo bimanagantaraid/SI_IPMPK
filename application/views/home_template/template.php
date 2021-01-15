@@ -45,13 +45,13 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav ml-auto my-lg-0 my-2">
                         <li class="nav-item">
-                            <a href="<?= base_url('home/profile') ?>" class="nav-link">ABOUT</a>
+                            <a href="<?= base_url('home') ?>" class="nav-link text-white">Beranda</a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('home/artikel') ?>" class="nav-link">NEWS & EVENT</a>
+                            <a href="<?= base_url('home/profile') ?>" class="nav-link text-white">Tentang Kami</a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('home/contact') ?>" class="nav-link">CONTACT US</a>
+                            <a href="<?= base_url('home/artikel') ?>" class="nav-link text-white">Berita & Event</a>
                         </li>
                     </ul>
                 </div>

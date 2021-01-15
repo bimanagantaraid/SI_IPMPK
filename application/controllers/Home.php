@@ -48,4 +48,8 @@ class Home extends CI_Controller{
 	function contact(){
 		$this->load->view('contact-us.php');
 	}
+
+	function pengurus(){
+		$this->load->view('pengurus.php');
+	}
 }

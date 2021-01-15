@@ -28,16 +28,13 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav ml-auto my-lg-0 my-2">
                         <li class="nav-item">
-                            <a href="<?= base_url('home/profile')?>" class="nav-link">ABOUT</a>
+                            <a href="<?= base_url('home/profile')?>" class="nav-link">Tentang Kami</a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('home/artikel') ?>" class="nav-link">NEWS & EVENT</a>
+                            <a href="<?= base_url('home/artikel') ?>" class="nav-link">Berita & Event</a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('home/contact') ?>" class="nav-link">CONTACT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" data-target="#exampleModal" data-toggle="modal" class="nav-link">LOGIN</a>
+                            <a href="#" data-target="#exampleModal" data-toggle="modal" class="nav-link btn-sm btn-primary" style="padding-left:15px; padding-right:15px;">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -66,8 +63,8 @@
             <div class="row h-100 align-items-center justify-content-left text-left">
                 <div class="col-lg-6">
                     <h1 class="display-1 text-white">IPMPK</h1>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum ipsum blanditiis deleniti quos illo sed doloremque in corrupti sapiente consequuntur sit odio et tempore facilis sequi, autem dolore facere.</p>
-                    <a href="<?= base_url('home/profile')?>"><button class="btn btn-success">OUR HISTORY</button></a>
+                    <p class="text-white text-justify">Organisasi Pelajar Mahasiswa Pemuda Kempas berdiri pada tahun 2017. IPMPK dipelopori dan didirikan oleh Taqrir M. Asri Saman juga sebagai ketua umum organisasi. Organisasi ditujukan untuk membentuk karakter, komunikasi dan solidaritas antar pemuda, mahasiswa, pelajar kempas supaya menjadi lebih baik.</p>
+                    <a href="<?= base_url('home/profile')?>"><button class="btn btn-success">Tentang Kami</button></a>
                 </div>
             </div>
         </div>
